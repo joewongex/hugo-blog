@@ -1,4 +1,4 @@
-baseURL = 'https://joewongex.github.io/hugo-blog/'
+baseURL = 'https://blog.joewong.cc/'
 languageCode = 'zh-cn'
 title = '偌大的院子'
 theme = 'ananke'

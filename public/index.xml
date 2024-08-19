@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>偌大的院子</title>
+    <link>http://localhost:1313/hugo-blog/</link>
+    <description>Recent content on 偌大的院子</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Aug 2024 20:09:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用autossh进行反向连接</title>
+      <link>http://localhost:1313/hugo-blog/posts/autossh-reverse-connection/</link>
+      <pubDate>Mon, 19 Aug 2024 20:09:00 +0800</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/autossh-reverse-connection/</guid>
+      <description>执行命令：&#xA;autossh -M 4010 -fNR 8822:localhost:2222 root@remote_ip 参数解释：&#xA;-M autossh参数，通过该参数指定的端口监视连接状态，连接有问题时就会自动重连 -f 后台运行 -N 不执行远程命令，专为端口转发量身打造 -R 将远程服务器的某个端口转发到本地端指定机器的指定端口 8822为远程服务器的监听端口，localhost:2222是本地监听端口地址，将访问远程服务器8822端口上的数据转发到本地2222端口上。&#xA;root@remote_ip是远程服务器的登录账号</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <link>http://localhost:1313/hugo-blog/posts/my-first-post/</link>
+      <pubDate>Mon, 19 Aug 2024 14:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/my-first-post/</guid>
       <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>

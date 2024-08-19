@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/usr/local/software/nginx/www/quickstart",
+	"sourceRoot": "/usr/local/software/nginx/www/blog",
 	"sources": [
 		"ananke/css/main.css"
 	],

@@ -2,6 +2,7 @@
 title = '使用autossh进行反向连接'
 date = 2024-08-19T20:09:00+08:00
 draft = false
+summary = 'autossh也能实现内网穿透？'
 +++
 
 **执行命令**：

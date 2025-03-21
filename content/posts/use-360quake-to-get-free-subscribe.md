@@ -2,6 +2,7 @@
 title = '使用360QUAKE搜索获取免费订阅'
 date = 2025-03-21T17:25:00+08:00
 draft = false
+summary = 'clash订阅不花钱，360QUAKE免费帮你找'
 +++
 
 1. 打开 https://quake.360.net/quake/#/index，没有账号需要先注册

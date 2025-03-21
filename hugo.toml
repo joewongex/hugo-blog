@@ -1,4 +1,17 @@
 baseURL = 'https://blog.joewong.cc/'
 languageCode = 'zh-cn'
 title = '偌大的院子'
-theme = 'ananke'
+theme = 'hyde'
+# 下面配置是从 https://github.com/spf13/hyde?tab=readme-ov-file 获取的
+disqusShortname = "spf13"
+googleAnalytics = "G-19SM1GRZV6"
+
+[params]
+  description = "想要一个大house，一个大院子"
+  themeColor = "theme-base-0c"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/username/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+  ]

@@ -2,17 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 偌大的院子</title>
-    <link>http://localhost:1313/hugo-blog/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 偌大的院子</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 19 Aug 2024 14:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 17:25:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用360QUAKE搜索获取免费订阅</title>
+      <link>http://localhost:1313/posts/use-360quake-to-get-free-subscribe/</link>
+      <pubDate>Fri, 21 Mar 2025 17:25:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/use-360quake-to-get-free-subscribe/</guid>
+      <description>clash订阅不花钱，360QUAKE免费帮你找</description>
+    </item>
+    <item>
+      <title>解决gitlab ssh公钥冲突问题</title>
+      <link>http://localhost:1313/posts/resolve-gitlab-ssh-key-conflict/</link>
+      <pubDate>Tue, 29 Oct 2024 17:14:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/resolve-gitlab-ssh-key-conflict/</guid>
+      <description>远程开发连接gitlab仓库，每个项目使用各自的密钥</description>
+    </item>
+    <item>
+      <title>使用autossh进行反向连接</title>
+      <link>http://localhost:1313/posts/autossh-reverse-connection/</link>
+      <pubDate>Mon, 19 Aug 2024 20:09:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/autossh-reverse-connection/</guid>
+      <description>autossh也能实现内网穿透？</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/hugo-blog/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 19 Aug 2024 14:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/hugo-blog/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>
